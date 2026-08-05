@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "SaaS-Tenant-Vending-Machine",
+  "rank": 43,
+  "action": "plan_saas_tenant_vending_machine",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
